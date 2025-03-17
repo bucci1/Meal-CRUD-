@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  title: MyString
+  date: 2025-03-17
+  total_price: 9.99
+  total_calorie: 1
+
+two:
+  user_id: 1
+  title: MyString
+  date: 2025-03-17
+  total_price: 9.99
+  total_calorie: 1
