@@ -1,0 +1,10 @@
+/* Navbar */
+.nav-bar {
+    background-color: green !important;
+    padding: 1.8em;
+}
+
+.h-fill {
+    height: 100vh;
+    overflow: auto;
+}

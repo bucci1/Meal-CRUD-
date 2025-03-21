@@ -8,9 +8,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
-  post '/register' , to: 'users#register'
-  post 'login' , to: 'users#login'
-  get '/', to: 'users#show'
+  post "users/register", to: "users#register"
+  post "users/login", to: "users#login"
+  put "users/update", to: "users#update"
+  get "/", to: "users#show"
 
   resources :foods
   resources :meals
